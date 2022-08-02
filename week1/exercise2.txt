@@ -1,0 +1,609 @@
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ cd house
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/  treasure1  treasure2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ mv treasure1 treasure2 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  treasure1  treasure2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4 trash5
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ,,
+bash: cd: ,,: No such file or directory
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd..
+bash: cd..: command not found
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/  trasure4
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/  trasure4
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/  trasure4
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ mv trasure4 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure4
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table  trasure5
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ mv trasure5 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure4  trasure5
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror  trasure
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ mv trasure ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/  trasure  trasure4  trasure5
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ mv trasure trasure4 trasure5 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/  trasure  trasure4  trasure5  treasure1  treasure2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/  trasure6
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ mv trasure6 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  trasure6
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror  treasure7
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ mv treasure7 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/  trasure6  treasure7
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ mv trasure6 treasure7 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor1/  trasure   trasure5  treasure1  treasure7
+floor0/    floor2/  trasure4  trasure6  treasure2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ cd floor2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/  treasure8
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/  treasure8  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ mv treasure8 treasure9 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/  treasure8  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ mv treasure8 treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ mv treasure9 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor1/  trasure   trasure5  treasure1  treasure7
+floor0/    floor2/  trasure4  trasure6  treasure2  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ mv trasure trasure4 trasure5 trasure6 treasure1 treasure2 treasure7 treasure9 ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/house (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ ls
+chest/  instructions.txt  trasure4  trasure6   treasure2  treasure9
+house/  trasure           trasure5  treasure1  treasure7
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ mv trasure trasure4 trasure5 trasure6 treasure1 treasure2 treasure7 treasure9 chest
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ cd chest
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure9
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/chest (main)
+$ cd treasure9
+bash: cd: treasure9: Not a directory
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+gusta@GOOSE-LAPTOP MINGW64 ~/OneDrive/Documents/Revature/Rory Revature Training/exercises/week1/unix_exercise (main)
+$ find . -name trash*
+
+
