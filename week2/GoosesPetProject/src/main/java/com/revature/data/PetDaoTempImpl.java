@@ -39,6 +39,6 @@ public class PetDaoTempImpl implements PetDao {
     @Override
     public boolean delete(int id) {
         System.out.println("Delete pet with id "+ id);
-        return pets;
+        return true;
     }
 }
