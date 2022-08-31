@@ -14,4 +14,9 @@ public interface PetDao {
     public Pet update(Pet pet);
 
     public boolean delete(int id);
+
+    public boolean adopt(int personId, int petId);
+    public List<Pet> getAdoptedPets(int personId);
+
+
 }

@@ -10,7 +10,7 @@ public class PetDaoTempImpl implements PetDao {
     @Override
     public Pet insert(Pet pet) {
         System.out.println("Inserting pet: " + pet.toString());
-        pet.setId(1);
+        pet.setId(2);
         return pet;
     }
 
@@ -19,6 +19,7 @@ public class PetDaoTempImpl implements PetDao {
         Pet dummyPet = new Pet(id, "Pet from Database", "cat", "meow mix");
         return dummyPet;
     }
+
 
     @Override
     public List<Pet> getAllPets() {
@@ -40,5 +41,15 @@ public class PetDaoTempImpl implements PetDao {
     public boolean delete(int id) {
         System.out.println("Delete pet with id "+ id);
         return true;
+    }
+
+    @Override
+    public boolean adopt(int personId, int petId) {
+        return false;
+    }
+
+    @Override
+    public List<Pet> getAdoptedPets(int personId) {
+        return null;
     }
 }
