@@ -38,11 +38,11 @@ public class UserCommandLineInterface {
                         System.out.println("You are already logged in.");
                         break;
                     }
-                    System.out.print("Enter id => ");
-                    int id = intScanner.nextInt();
+                    System.out.print("Enter name => ");
+                    name = stringScanner.nextLine();
                     System.out.print("Enter password => ");
                     password = stringScanner.nextLine();
-                    user = userService.login(id, password);
+                    user = userService.login(name, password);
                     if (user == null) {
                         System.out.println("Login unsuccessful!");
                     }

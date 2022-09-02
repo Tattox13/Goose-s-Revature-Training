@@ -32,6 +32,7 @@ public class TicketDaoImpl implements TicketDao {
                 resultSet.next();
                 int id = resultSet.getInt(1);
                 ticket.setId(id);
+                ticket.setStatus("pending");
             } else {
                 System.out.println("Oops! There was an error applying for a ticket.");
             }
@@ -146,5 +147,36 @@ public class TicketDaoImpl implements TicketDao {
 
         }
         return null;
+    }
+
+    @Override
+    public List<Ticket> getTicketsbyPending(int empId, String statusP) {
+        List<Ticket> tickets = new ArrayList<>();
+        // use store procedure:
+        String sql = "select * from ticket where emp_id = ? and status = ?;";
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1,empId);
+            preparedStatement.setString(2, statusP);
+            System.out.println(preparedStatement);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while(resultSet.next()) {
+                // Read data from query:
+                int id = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                int ownerId = resultSet.getInt("emp_id");
+                Float amount = resultSet.getFloat("amount");
+                String description = resultSet.getString("description");
+                String status = resultSet.getString("status");
+                Ticket ticket = new Ticket(id, name, ownerId, amount, description, status);
+
+                tickets.add(ticket);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+        return tickets;
     }
 }

@@ -17,4 +17,6 @@ public interface TicketDao {
 
     public Ticket getTicketsById(int TicketId);
 
+    public List<Ticket> getTicketsbyPending(int empId, String statusP);
+
 }

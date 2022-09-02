@@ -15,6 +15,15 @@
     <url-pattern>/tickets/*</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>user</servlet-name>
+    <servlet-class>com.revature.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <!-- we include the * meaning anything can come after this -->
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
 
 
 

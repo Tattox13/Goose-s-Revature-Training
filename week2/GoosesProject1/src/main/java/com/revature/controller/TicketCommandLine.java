@@ -69,6 +69,16 @@ public class TicketCommandLine {
                         System.out.println(tickets1.get(i));
                     }
                     break;
+                case 6:
+                    System.out.print("Enter in Emp_id: ");
+                    int empId1 = intScanner.nextInt();
+                    System.out.print("Enter in status: ");
+                    String statusP = stringScanner.nextLine();
+                    List<Ticket> tickets2 = ticketService.getTicketsbyPending(empId1, statusP);
+                    for(int i = 0; i < tickets2.size(); i ++) {
+                        System.out.println(tickets2.get(i));
+                    }
+                    break;
                 default:
                     System.out.println("Not a valid option.");
                     break;
@@ -86,6 +96,7 @@ public class TicketCommandLine {
         System.out.println("3 - Get all tickets");
         System.out.println("4 - Update ticket");
         System.out.println("5 - Get All tickets by Employee id");
+        System.out.println("6 - Get pending tickets");
         System.out.print("Enter => ");
     }
 }

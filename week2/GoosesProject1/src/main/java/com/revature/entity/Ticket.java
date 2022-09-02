@@ -41,7 +41,13 @@ public class Ticket {
         this.ownerId = ownerId;
         this.amount = amount;
         this.description = description;
+        //this.status = "pending";
     }
+
+//    public Ticket(int ownerId, String description){
+//        this.ownerId = ownerId;
+//        this.description = description;
+//    }
 
     public int getId() {
         return id;

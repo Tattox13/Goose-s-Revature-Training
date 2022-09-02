@@ -70,12 +70,38 @@ public class UserDaoImpl implements UserDao{
     }
 
     @Override
-    public List<User> getUsers() {
+    public User getName(String name) {
+        Logger logger = LoggerFactory.getLogger("User Dao Impl");
+        String sql = "select * from person where name = ?;";
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1 , name);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if(resultSet.next()) {
+                int idDb = resultSet.getInt("id");
+                String name1 = resultSet.getString("name");
+                String password = resultSet.getString("password");
+                return new User(idDb, name1, password);
+            }
+            else {
+                logger.warn("User might not exist");
+            }
+
+        } catch (SQLException e){
+            e.printStackTrace();
+            logger.warn("SQL Exception occurred");
+        }
         return null;
     }
 
-    @Override
-    public User update(User user) {
-        return null;
-    }
+//    @Override
+//    public List<User> getUsers() {
+//        return null;
+//    }
+//
+//    @Override
+//    public User update(User user) {
+//        return null;
+//    }
 }

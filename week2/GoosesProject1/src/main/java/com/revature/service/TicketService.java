@@ -37,4 +37,8 @@ public class TicketService {
         return ticketDao.getTicketsForEmployee(empId);
     }
 
+    public List<Ticket> getTicketsbyPending(int empId, String statusP) {
+        TicketDao ticketDao = new TicketDaoImpl();
+        return ticketDao.getTicketsbyPending(empId, statusP);
+    }
 }

@@ -13,10 +13,10 @@ public class UserService {
         return user1;
     }
 
-    public User login(int id, String password) {
+    public User login(String name, String password) {
 
         UserDao userDao = DaoFactory.getUserDao();
-        User user = userDao.getById(id);
+        User user = userDao.getName(name);
         if (password.equals(user.getPassword())) {
 
             return user;
